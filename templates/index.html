@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医疗问答系统</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>医疗问答系统</h1>
+        <div class="chat-container">
+            <div id="chat-history"></div>
+            <div class="input-area">
+                <input type="text" id="question-input" placeholder="请输入您的医疗问题...">
+                <button id="send-btn">发送</button>
+            </div>
+        </div>
+        <div class="feedback-area">
+            <h3>反馈评分</h3>
+            <div id="feedback-buttons">
+                <button class="feedback-btn" data-score="1">1 - 很差</button>
+                <button class="feedback-btn" data-score="2">2 - 较差</button>
+                <button class="feedback-btn" data-score="3">3 - 一般</button>
+                <button class="feedback-btn" data-score="4">4 - 良好</button>
+                <button class="feedback-btn" data-score="5">5 - 优秀</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "disease_1",
+      "name": "感冒",
+      "type": "疾病",
+      "description": "由病毒引起的上呼吸道感染"
+    },
+    {
+      "id": "symptom_1",
+      "name": "发热",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_2",
+      "name": "咳嗽",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_3",
+      "name": "流鼻涕",
+      "type": "症状"
+    },
+    {
+      "id": "drug_1",
+      "name": "感冒灵",
+      "type": "药物",
+      "usage": "一次1袋，一日3次"
+    },
+    {
+      "id": "drug_2",
+      "name": "板蓝根",
+      "type": "药物",
+      "usage": "一次1袋，一日3次"
+    },
+    {
+      "id": "department_1",
+      "name": "内科",
+      "type": "科室"
+    },
+    {
+      "id": "disease_2",
+      "name": "胃炎",
+      "type": "疾病",
+      "description": "胃黏膜炎症"
+    },
+    {
+      "id": "symptom_4",
+      "name": "胃痛",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_5",
+      "name": "恶心",
+      "type": "症状"
+    },
+    {
+      "id": "drug_3",
+      "name": "奥美拉唑",
+      "type": "药物",
+      "usage": "一次20mg，一日1次"
+    },
+    {
+      "id": "department_2",
+      "name": "消化内科",
+      "type": "科室"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "disease_1",
+      "target": "symptom_1",
+      "type": "has_symptom",
+      "description": "感冒可能会出现发热症状"
+    },
+    {
+      "source": "disease_1",
+      "target": "symptom_2",
+      "type": "has_symptom",
+      "description": "感冒可能会出现咳嗽症状"
+    },
+    {
+      "source": "disease_1",
+      "target": "symptom_3",
+      "type": "has_symptom",
+      "description": "感冒可能会出现流鼻涕症状"
+    },
+    {
+      "source": "disease_1",
+      "target": "drug_1",
+      "type": "treated_by",
+      "description": "感冒可使用感冒灵治疗"
+    },
+    {
+      "source": "disease_1",
+      "target": "drug_2",
+      "type": "treated_by",
+      "description": "感冒可使用板蓝根治疗"
+    },
+    {
+      "source": "disease_1",
+      "target": "department_1",
+      "type": "treated_in",
+      "description": "感冒患者可前往内科就诊"
+    },
+    {
+      "source": "disease_2",
+      "target": "symptom_4",
+      "type": "has_symptom",
+      "description": "胃炎可能会出现胃痛症状"
+    },
+    {
+      "source": "disease_2",
+      "target": "symptom_5",
+      "type": "has_symptom",
+      "description": "胃炎可能会出现恶心症状"
+    },
+    {
+      "source": "disease_2",
+      "target": "drug_3",
+      "type": "treated_by",
+      "description": "胃炎可使用奥美拉唑治疗"
+    },
+    {
+      "source": "disease_2",
+      "target": "department_2",
+      "type": "treated_in",
+      "description": "胃炎患者可前往消化内科就诊"
+    },
+    {
+      "source": "symptom_1",
+      "target": "department_1",
+      "type": "related_to",
+      "description": "发热症状通常与内科相关"
+    },
+    {
+      "source": "symptom_4",
+      "target": "department_2",
+      "type": "related_to",
+      "description": "胃痛症状通常与消化内科相关"
+    }
+  ]
+}
