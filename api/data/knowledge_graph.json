@@ -64,6 +64,156 @@
       "id": "department_2",
       "name": "消化内科",
       "type": "科室"
+    },
+    {
+      "id": "disease_3",
+      "name": "肺结核",
+      "type": "疾病",
+      "description": "由结核分枝杆菌引起的慢性呼吸道传染病"
+    },
+    {
+      "id": "symptom_6",
+      "name": "咯血",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_7",
+      "name": "午后低热",
+      "type": "症状"
+    },
+    {
+      "id": "drug_4",
+      "name": "异烟肼",
+      "type": "药物",
+      "usage": "一次300mg，一日1次"
+    },
+    {
+      "id": "drug_5",
+      "name": "利福平",
+      "type": "药物",
+      "usage": "一次450mg，一日1次"
+    },
+    {
+      "id": "department_3",
+      "name": "呼吸内科",
+      "type": "科室"
+    },
+    {
+      "id": "disease_4",
+      "name": "胃溃疡",
+      "type": "疾病",
+      "description": "胃黏膜被胃酸和胃蛋白酶消化而形成的慢性溃疡"
+    },
+    {
+      "id": "symptom_8",
+      "name": "反酸",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_9",
+      "name": "黑便",
+      "type": "症状"
+    },
+    {
+      "id": "drug_6",
+      "name": "铝碳酸镁",
+      "type": "药物",
+      "usage": "一次1.0g，一日3次"
+    },
+    {
+      "id": "disease_5",
+      "name": "冠心病",
+      "type": "疾病",
+      "description": "冠状动脉粥样硬化使血管腔狭窄或阻塞，导致心肌缺血缺氧而引起的心脏病"
+    },
+    {
+      "id": "symptom_10",
+      "name": "胸痛",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_11",
+      "name": "心悸",
+      "type": "症状"
+    },
+    {
+      "id": "drug_7",
+      "name": "硝酸甘油",
+      "type": "药物",
+      "usage": "一次0.5mg，舌下含服"
+    },
+    {
+      "id": "drug_8",
+      "name": "阿司匹林",
+      "type": "药物",
+      "usage": "一次100mg，一日1次"
+    },
+    {
+      "id": "department_4",
+      "name": "心血管内科",
+      "type": "科室"
+    },
+    {
+      "id": "disease_6",
+      "name": "脑梗塞",
+      "type": "疾病",
+      "description": "脑部血液供应障碍，缺血、缺氧引起的局限性脑组织缺血性坏死或软化"
+    },
+    {
+      "id": "symptom_12",
+      "name": "偏瘫",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_13",
+      "name": "言语障碍",
+      "type": "症状"
+    },
+    {
+      "id": "drug_9",
+      "name": "阿托伐他汀",
+      "type": "药物",
+      "usage": "一次20mg，一日1次"
+    },
+    {
+      "id": "department_5",
+      "name": "神经内科",
+      "type": "科室"
+    },
+    {
+      "id": "symptom_14",
+      "name": "盗汗",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_15",
+      "name": "乏力",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_16",
+      "name": "体重减轻",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_17",
+      "name": "嗳气",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_18",
+      "name": "呕吐",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_19",
+      "name": "气短",
+      "type": "症状"
+    },
+    {
+      "id": "symptom_20",
+      "name": "吞咽困难",
+      "type": "症状"
     }
   ],
   "relationships": [
@@ -138,6 +288,156 @@
       "target": "department_2",
       "type": "related_to",
       "description": "胃痛症状通常与消化内科相关"
+    },
+    {
+      "source": "disease_3",
+      "target": "symptom_2",
+      "type": "has_symptom",
+      "description": "肺结核可能会出现咳嗽症状"
+    },
+    {
+      "source": "disease_3",
+      "target": "symptom_6",
+      "type": "has_symptom",
+      "description": "肺结核可能会出现咯血症状"
+    },
+    {
+      "source": "disease_3",
+      "target": "symptom_7",
+      "type": "has_symptom",
+      "description": "肺结核可能会出现午后低热症状"
+    },
+    {
+      "source": "disease_3",
+      "target": "symptom_14",
+      "type": "has_symptom",
+      "description": "肺结核可能会出现盗汗症状"
+    },
+    {
+      "source": "disease_3",
+      "target": "drug_4",
+      "type": "treated_by",
+      "description": "肺结核可使用异烟肼治疗"
+    },
+    {
+      "source": "disease_3",
+      "target": "drug_5",
+      "type": "treated_by",
+      "description": "肺结核可使用利福平治疗"
+    },
+    {
+      "source": "disease_3",
+      "target": "department_3",
+      "type": "treated_in",
+      "description": "肺结核患者可前往呼吸内科就诊"
+    },
+    {
+      "source": "disease_4",
+      "target": "symptom_4",
+      "type": "has_symptom",
+      "description": "胃溃疡可能会出现胃痛症状"
+    },
+    {
+      "source": "disease_4",
+      "target": "symptom_8",
+      "type": "has_symptom",
+      "description": "胃溃疡可能会出现反酸症状"
+    },
+    {
+      "source": "disease_4",
+      "target": "symptom_9",
+      "type": "has_symptom",
+      "description": "胃溃疡可能会出现黑便症状"
+    },
+    {
+      "source": "disease_4",
+      "target": "drug_3",
+      "type": "treated_by",
+      "description": "胃溃疡可使用奥美拉唑治疗"
+    },
+    {
+      "source": "disease_4",
+      "target": "drug_6",
+      "type": "treated_by",
+      "description": "胃溃疡可使用铝碳酸镁治疗"
+    },
+    {
+      "source": "disease_4",
+      "target": "department_2",
+      "type": "treated_in",
+      "description": "胃溃疡患者可前往消化内科就诊"
+    },
+    {
+      "source": "disease_5",
+      "target": "symptom_10",
+      "type": "has_symptom",
+      "description": "冠心病可能会出现胸痛症状"
+    },
+    {
+      "source": "disease_5",
+      "target": "symptom_11",
+      "type": "has_symptom",
+      "description": "冠心病可能会出现心悸症状"
+    },
+    {
+      "source": "disease_5",
+      "target": "symptom_19",
+      "type": "has_symptom",
+      "description": "冠心病可能会出现气短症状"
+    },
+    {
+      "source": "disease_5",
+      "target": "drug_7",
+      "type": "treated_by",
+      "description": "冠心病可使用硝酸甘油治疗"
+    },
+    {
+      "source": "disease_5",
+      "target": "drug_8",
+      "type": "treated_by",
+      "description": "冠心病可使用阿司匹林治疗"
+    },
+    {
+      "source": "disease_5",
+      "target": "department_4",
+      "type": "treated_in",
+      "description": "冠心病患者可前往心血管内科就诊"
+    },
+    {
+      "source": "disease_6",
+      "target": "symptom_12",
+      "type": "has_symptom",
+      "description": "脑梗塞可能会出现偏瘫症状"
+    },
+    {
+      "source": "disease_6",
+      "target": "symptom_13",
+      "type": "has_symptom",
+      "description": "脑梗塞可能会出现言语障碍症状"
+    },
+    {
+      "source": "disease_6",
+      "target": "symptom_20",
+      "type": "has_symptom",
+      "description": "脑梗塞可能会出现吞咽困难症状"
+    },
+    {
+      "source": "disease_6",
+      "target": "drug_8",
+      "type": "treated_by",
+      "description": "脑梗塞可使用阿司匹林治疗"
+    },
+    {
+      "source": "disease_6",
+      "target": "drug_9",
+      "type": "treated_by",
+      "description": "脑梗塞可使用阿托伐他汀治疗"
+    },
+    {
+      "source": "disease_6",
+      "target": "department_5",
+      "type": "treated_in",
+      "description": "脑梗塞患者可前往神经内科就诊"
     }
   ]
 }

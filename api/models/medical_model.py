@@ -62,6 +62,13 @@ class MedicalQAModel:
                 answer += f"常见症状包括：{symptoms}。"
                 if drugs:
                     answer += f"常用药物有：{drug_info}。"
+                
+                # 添加科室推荐
+                related_departments = self._find_related_departments(disease_info.get('symptoms', []))
+                if related_departments:
+                    depts_str = '、'.join(related_departments)
+                    answer += f"建议就诊科室：{depts_str}。"
+                
                 return answer
         
         # Check for department-related questions
@@ -85,8 +92,22 @@ class MedicalQAModel:
                 
                 if related_diseases:
                     diseases_str = '、'.join(related_diseases)
-                    answer = f"{symptom}可能与以下疾病相关：{diseases_str}。建议您咨询医生以获得准确诊断。"
+                    answer = f"{symptom}可能与以下疾病相关：{diseases_str}。"
+                    
+                    # 添加科室推荐
+                    related_departments = self._find_related_departments([symptom])
+                    if related_departments:
+                        depts_str = '、'.join(related_departments)
+                        answer += f"建议就诊科室：{depts_str}。"
+                    
+                    answer += "建议您咨询医生以获得准确诊断。"
                     return answer
+        
+        # 推荐科室功能 - 当用户直接询问应该去哪个科室时
+        if any(keyword in question_lower for keyword in ["挂哪个科", "看哪个科", "去哪个科", "推荐科室", "哪个科室", "应该挂号"]):
+            answer = self._recommend_departments(question)
+            if answer:
+                return answer
         
         # Default response
         if "感冒" in question:
@@ -94,8 +115,58 @@ class MedicalQAModel:
         
         if "胃炎" in question:
             return "胃炎是胃黏膜的炎症，常见症状包括胃痛、恶心、呕吐等。建议规律饮食，避免辛辣刺激食物，可适当服用胃黏膜保护剂。如果症状持续，请就医诊治。"
-        
+        if "你好" in question or "您好" in question:
+            return "我是一个智能助手，我可以回答你的问题。请输入你的问题。"
+        if "谢谢" in question:
+            return "不客气。"
+        if "再见" in question:
+            return "祝你生活愉快"
         return "感谢您的提问。我是基于医疗知识库的智能问答系统。根据您的问题，我无法提供具体的医疗建议。如果您有健康方面的担忧，建议咨询专业医生或前往医院就诊。"
+
+    def _find_related_departments(self, symptoms):
+        """
+        根据症状列表查找相关科室
+        Find related departments based on symptoms list
+        """
+        related_departments = []
+        
+        for symptom in symptoms:
+            for dept_name, dept_info in self.departments_data.items():
+                if symptom in dept_info.get('symptoms', []):
+                    # 避免重复添加科室
+                    if dept_name not in related_departments:
+                        related_departments.append(dept_name)
+        
+        return related_departments
+
+    def _recommend_departments(self, question):
+        """
+        根据问题内容推荐科室
+        Recommend departments based on question content
+        """
+        question_lower = question.lower()
+        matched_departments = []
+        
+        # 根据科室症状关键词匹配
+        for dept_name, dept_info in self.departments_data.items():
+            symptoms = dept_info.get('symptoms', [])
+            # 如果科室有50%以上的症状关键词在问题中出现，则推荐该科室
+            matched_symptoms = [symptom for symptom in symptoms if symptom.lower() in question_lower]
+            if len(matched_symptoms) >= len(symptoms) * 0.5 or len(matched_symptoms) >= 3:
+                matched_departments.append(dept_name)
+        
+        if matched_departments:
+            depts_str = '、'.join(matched_departments)
+            return f"根据您的症状描述，建议您可以考虑挂以下科室：{depts_str}。"
+        
+        # 如果没有明确匹配，提供常见科室推荐
+        common_depts = ["内科", "外科", "急诊科"]
+        available_common_depts = [dept for dept in common_depts if dept in self.departments_data]
+        if available_common_depts:
+            depts_str = '、'.join(available_common_depts)
+            return f"如果不确定具体科室，您可以先考虑挂以下常见科室：{depts_str}，医生会根据具体情况为您安排。"
+        
+        return None
 
 # Global instance
 medical_model = MedicalQAModel()
