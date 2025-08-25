@@ -39,20 +39,16 @@ def ask_medical_question():
         full_context = f"{context} {knowledge_context}".strip()
         
         # 生成答案
-        answer = medical_model.generate_answer(question, full_context)
+        answer = medical_model.generate_answer(question, full_context,512,session_id)
+
         
         # 计算模型评分
-        score = calculate_model_score(answer, expected_keywords)
+        score = calculate_model_score(answer.get('answer'), expected_keywords)
         
         # 保存对话历史
         context_manager.add_turn(question, answer)
-        
-        return jsonify({
-            'question': question,
-            'answer': answer,
-            'score': score,
-            'session_id': session_id
-        })
+        answer['score'] = score
+        return answer
         
     except Exception as e:
         logging.error(f"Error processing question: {str(e)}")

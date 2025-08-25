@@ -177,3 +177,5 @@ docker-compose.override.yml
 # Virtual environments
 */venv/
 */env/
+
+models/medical_qa

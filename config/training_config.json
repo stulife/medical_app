@@ -1,0 +1,57 @@
+{
+  "model_name": "hfl/chinese-bert-wwm-ext",
+  "model_type": "seq2seq",
+  "max_length": 512,
+  "max_target_length": 128,
+  "learning_rate": 2e-5,
+  "batch_size": 4,
+  "num_epochs": 3,
+  "weight_decay": 0.01,
+  "warmup_steps": 500,
+  "output_dir": "models/medical_qa",
+  "logging_steps": 100,
+  "save_strategy": "epoch",
+  "evaluation_strategy": "epoch",
+  "description": "医疗问答模型训练配置",
+  "auto_learning": {
+    "min_feedback_count": 10,
+    "min_low_score_ratio": 0.3,
+    "feedback_score_threshold": 0.6,
+    "retrain_interval_hours": 24,
+    "incremental_learning": true,
+    "max_training_samples": 1000,
+    "backup_model_count": 3,
+    "performance_improvement_threshold": 0.05,
+    "min_answer_length": 5,
+    "max_answer_length": 500,
+    "duplicate_threshold": 0.9
+  },
+  "data_processing": {
+    "include_feedback": true,
+    "train_ratio": 0.8,
+    "validation_ratio": 0.2,
+    "max_question_length": 256,
+    "max_answer_length": 512,
+    "filter_duplicates": true,
+    "quality_threshold": 0.5
+  },
+  "evaluation": {
+    "metrics": ["exact_match", "f1_score", "bleu_score", "rouge_score"],
+    "save_predictions": true,
+    "save_evaluation_report": true,
+    "test_sample_size": 100
+  },
+  "deployment": {
+    "model_serving": {
+      "host": "0.0.0.0",
+      "port": 5000,
+      "max_workers": 4,
+      "timeout": 30
+    },
+    "model_optimization": {
+      "use_quantization": false,
+      "use_onnx": false,
+      "batch_inference": true
+    }
+  }
+}

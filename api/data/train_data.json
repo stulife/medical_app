@@ -1,0 +1,872 @@
+[
+  {
+    "question": "呼吸困难应该挂什么科？",
+    "answer": "如果您有呼吸困难的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：呼吸困难，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "血糖异常应该挂什么科？",
+    "answer": "如果您有血糖异常的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：血糖异常，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "糖尿病用什么药治疗？",
+    "answer": "治疗糖尿病可以使用胰岛素，用法：皮下注射，剂量遵医嘱。补充胰岛素，降低血糖",
+    "context": "疾病：糖尿病，药物：胰岛素",
+    "category": "treatment"
+  },
+  {
+    "question": "什么是过敏性鼻炎？",
+    "answer": "鼻黏膜非感染性炎性疾病",
+    "context": "疾病：过敏性鼻炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "体重异常应该挂什么科？",
+    "answer": "如果您有体重异常的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：体重异常，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "冠心病会有气短的症状吗？",
+    "answer": "是的，冠心病可能会出现气短症状",
+    "context": "疾病：冠心病，症状：气短",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "咽痛应该挂什么科？",
+    "answer": "如果您有咽痛的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：咽痛，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "头痛应该挂什么科？",
+    "answer": "如果您有头痛的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：头痛，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "什么症状应该去内科？",
+    "answer": "如果您有以下症状：发热、咳嗽、头痛、胸痛、腹痛、乏力，建议您前往内科就诊。",
+    "context": "科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "过敏性鼻炎用什么药治疗？",
+    "answer": "治疗过敏性鼻炎可以使用氯雷他定，用法：一次10mg，一日1次。抗过敏",
+    "context": "疾病：过敏性鼻炎，药物：氯雷他定",
+    "category": "treatment"
+  },
+  {
+    "question": "肢体麻木应该挂什么科？",
+    "answer": "如果您有肢体麻木的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：肢体麻木，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "流泪应该挂什么科？",
+    "answer": "如果您有流泪的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：流泪，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "视力下降应该挂什么科？",
+    "answer": "如果您有视力下降的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：视力下降，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "糖尿病的症状是什么？",
+    "answer": "患糖尿病时可能出现以下症状：多饮、多食、多尿、体重减轻、乏力、视力下降。",
+    "context": "疾病：糖尿病，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "心悸应该挂什么科？",
+    "answer": "如果您有心悸的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：心悸，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "感冒灵怎么用？",
+    "answer": "感冒灵的用法是：一次1袋，一日3次。缓解感冒症状",
+    "context": "药物：感冒灵",
+    "category": "drug_usage"
+  },
+  {
+    "question": "糖尿病有什么症状？",
+    "answer": "糖尿病的常见症状包括：多饮、多食、多尿、体重减轻、乏力、视力下降。",
+    "context": "疾病：糖尿病，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "什么症状应该去呼吸内科？",
+    "answer": "如果您有以下症状：咳嗽、咳痰、喘息、呼吸困难、胸闷、咯血，建议您前往呼吸内科就诊。",
+    "context": "科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "高血压的症状是什么？",
+    "answer": "患高血压时可能出现以下症状：头痛、头晕、心悸、胸闷、视力模糊、鼻出血。",
+    "context": "疾病：高血压，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "胃胀应该挂什么科？",
+    "answer": "如果您有胃胀的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：胃胀，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃溃疡可以用奥美拉唑治疗吗？",
+    "answer": "是的，胃溃疡可使用奥美拉唑治疗",
+    "context": "疾病：胃溃疡，药物：奥美拉唑",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "咳嗽应该挂什么科？",
+    "answer": "如果您有咳嗽的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：咳嗽，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "冠心病会有胸痛的症状吗？",
+    "answer": "是的，冠心病可能会出现胸痛症状",
+    "context": "疾病：冠心病，症状：胸痛",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "什么症状应该去耳鼻喉科？",
+    "answer": "如果您有以下症状：鼻塞、流涕、鼻痒、咽痛、耳痛、听力下降、声音嘶哑，建议您前往耳鼻喉科就诊。",
+    "context": "科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "什么是哮喘？",
+    "answer": "气道慢性炎症性疾病",
+    "context": "疾病：哮喘",
+    "category": "disease_description"
+  },
+  {
+    "question": "冠心病可以用阿司匹林治疗吗？",
+    "answer": "是的，冠心病可使用阿司匹林治疗",
+    "context": "疾病：冠心病，药物：阿司匹林",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "糠酸莫米松鼻喷雾剂怎么用？",
+    "answer": "糠酸莫米松鼻喷雾剂的用法是：每侧鼻孔1喷，一日1次。减轻鼻黏膜炎症",
+    "context": "药物：糠酸莫米松鼻喷雾剂",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃溃疡用什么药治疗？",
+    "answer": "治疗胃溃疡可以使用铝碳酸镁，用法：一次1.0g，一日3次。中和胃酸，保护胃黏膜",
+    "context": "疾病：胃溃疡，药物：铝碳酸镁",
+    "category": "treatment"
+  },
+  {
+    "question": "哮喘的症状是什么？",
+    "answer": "患哮喘时可能出现以下症状：喘息、气急、胸闷、咳嗽、呼吸困难。",
+    "context": "疾病：哮喘，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "感冒可以用感冒灵治疗吗？",
+    "answer": "是的，感冒可使用感冒灵治疗",
+    "context": "疾病：感冒，药物：感冒灵",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "脑梗塞会有偏瘫的症状吗？",
+    "answer": "是的，脑梗塞可能会出现偏瘫症状",
+    "context": "疾病：脑梗塞，症状：偏瘫",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "声音嘶哑应该挂什么科？",
+    "answer": "如果您有声音嘶哑的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：声音嘶哑，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "脑梗塞应该去哪个科室？",
+    "answer": "脑梗塞患者可前往神经内科就诊",
+    "context": "疾病：脑梗塞，科室：神经内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "胸痛应该挂什么科？",
+    "answer": "如果您有胸痛的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：胸痛，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "阿莫西林怎么用？",
+    "answer": "阿莫西林的用法是：一次0.5g，一日3次。抗菌消炎",
+    "context": "药物：阿莫西林",
+    "category": "drug_usage"
+  },
+  {
+    "question": "阿托伐他汀怎么用？",
+    "answer": "阿托伐他汀的用法是：一次20mg，一日1次。调脂稳定斑块",
+    "context": "药物：阿托伐他汀",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃炎用什么药治疗？",
+    "answer": "治疗胃炎可以使用胃黏膜保护剂，用法：一次1片，一日3次。保护胃黏膜",
+    "context": "疾病：胃炎，药物：胃黏膜保护剂",
+    "category": "treatment"
+  },
+  {
+    "question": "咯血应该挂什么科？",
+    "answer": "如果您有咯血的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：咯血，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺结核会有咯血的症状吗？",
+    "answer": "是的，肺结核可能会出现咯血症状",
+    "context": "疾病：肺结核，症状：咯血",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "高血压是什么病？",
+    "answer": "动脉血压持续升高的慢性疾病",
+    "context": "疾病：高血压",
+    "category": "disease_description"
+  },
+  {
+    "question": "鼻痒应该挂什么科？",
+    "answer": "如果您有鼻痒的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：鼻痒，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "糖尿病是什么病？",
+    "answer": "以高血糖为特征的代谢性疾病",
+    "context": "疾病：糖尿病",
+    "category": "disease_description"
+  },
+  {
+    "question": "什么是冠心病？",
+    "answer": "冠状动脉粥样硬化使血管腔狭窄或阻塞，导致心肌缺血缺氧而引起的心脏病",
+    "context": "疾病：冠心病",
+    "category": "disease_description"
+  },
+  {
+    "question": "反酸应该挂什么科？",
+    "answer": "如果您有反酸的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：反酸，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "感冒会有流鼻涕的症状吗？",
+    "answer": "是的，感冒可能会出现流鼻涕症状",
+    "context": "疾病：感冒，症状：流鼻涕",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "什么是胃炎？",
+    "answer": "胃黏膜炎症",
+    "context": "疾病：胃炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "胃痛应该挂什么科？",
+    "answer": "如果您有胃痛的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：胃痛，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "过敏性鼻炎用什么药治疗？",
+    "answer": "治疗过敏性鼻炎可以使用糠酸莫米松鼻喷雾剂，用法：每侧鼻孔1喷，一日1次。减轻鼻黏膜炎症",
+    "context": "疾病：过敏性鼻炎，药物：糠酸莫米松鼻喷雾剂",
+    "category": "treatment"
+  },
+  {
+    "question": "无力应该挂什么科？",
+    "answer": "如果您有无力的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：无力，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺炎用什么药治疗？",
+    "answer": "治疗肺炎可以使用阿莫西林，用法：一次0.5g，一日3次。抗菌消炎",
+    "context": "疾病：肺炎，药物：阿莫西林",
+    "category": "treatment"
+  },
+  {
+    "question": "恶心应该挂什么科？",
+    "answer": "如果您有恶心的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：恶心，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "氯雷他定怎么用？",
+    "answer": "氯雷他定的用法是：一次10mg，一日1次。抗过敏",
+    "context": "药物：氯雷他定",
+    "category": "drug_usage"
+  },
+  {
+    "question": "肺结核可以用利福平治疗吗？",
+    "answer": "是的，肺结核可使用利福平治疗",
+    "context": "疾病：肺结核，药物：利福平",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "胃溃疡用什么药治疗？",
+    "answer": "治疗胃溃疡可以使用奥美拉唑，用法：一次20mg，一日1次。抑制胃酸分泌",
+    "context": "疾病：胃溃疡，药物：奥美拉唑",
+    "category": "treatment"
+  },
+  {
+    "question": "什么是胃溃疡？",
+    "answer": "胃黏膜被胃酸和胃蛋白酶消化而形成的慢性溃疡",
+    "context": "疾病：胃溃疡",
+    "category": "disease_description"
+  },
+  {
+    "question": "鼻塞应该挂什么科？",
+    "answer": "如果您有鼻塞的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：鼻塞，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "多食应该挂什么科？",
+    "answer": "如果您有多食的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：多食，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "头痛应该挂什么科？",
+    "answer": "如果您有头痛的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：头痛，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "脑梗塞有什么症状？",
+    "answer": "脑梗塞的常见症状包括：偏瘫、偏身感觉障碍、言语障碍、吞咽困难、眩晕、头痛。",
+    "context": "疾病：脑梗塞，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "过敏性鼻炎有什么症状？",
+    "answer": "过敏性鼻炎的常见症状包括：打喷嚏、流鼻涕、鼻塞、鼻痒、眼痒、流泪。",
+    "context": "疾病：过敏性鼻炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "言语障碍应该挂什么科？",
+    "answer": "如果您有言语障碍的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：言语障碍，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "吞咽困难应该挂什么科？",
+    "answer": "如果您有吞咽困难的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：吞咽困难，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "过敏性鼻炎的症状是什么？",
+    "answer": "患过敏性鼻炎时可能出现以下症状：打喷嚏、流鼻涕、鼻塞、鼻痒、眼痒、流泪。",
+    "context": "疾病：过敏性鼻炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "哮喘用什么药治疗？",
+    "answer": "治疗哮喘可以使用沙丁胺醇气雾剂，用法：一次2喷，必要时使用。缓解哮喘急性发作",
+    "context": "疾病：哮喘，药物：沙丁胺醇气雾剂",
+    "category": "treatment"
+  },
+  {
+    "question": "脑梗塞可以用阿托伐他汀治疗吗？",
+    "answer": "是的，脑梗塞可使用阿托伐他汀治疗",
+    "context": "疾病：脑梗塞，药物：阿托伐他汀",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "肺结核会有午后低热的症状吗？",
+    "answer": "是的，肺结核可能会出现午后低热症状",
+    "context": "疾病：肺结核，症状：午后低热",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "感冒用什么药治疗？",
+    "answer": "治疗感冒可以使用板蓝根，用法：一次1袋，一日3次。清热解毒，凉血利咽",
+    "context": "疾病：感冒，药物：板蓝根",
+    "category": "treatment"
+  },
+  {
+    "question": "视物模糊应该挂什么科？",
+    "answer": "如果您有视物模糊的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：视物模糊，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "卡托普利怎么用？",
+    "answer": "卡托普利的用法是：一次25mg，一日3次。抑制血管紧张素转换酶",
+    "context": "药物：卡托普利",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胸闷应该挂什么科？",
+    "answer": "如果您有胸闷的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：胸闷，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺结核用什么药治疗？",
+    "answer": "治疗肺结核可以使用异烟肼，用法：一次300mg，一日1次。抗结核杀菌",
+    "context": "疾病：肺结核，药物：异烟肼",
+    "category": "treatment"
+  },
+  {
+    "question": "胃炎会有胃痛的症状吗？",
+    "answer": "是的，胃炎可能会出现胃痛症状",
+    "context": "疾病：胃炎，症状：胃痛",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "胃溃疡的症状是什么？",
+    "answer": "患胃溃疡时可能出现以下症状：上腹痛、反酸、嗳气、恶心、呕吐、黑便。",
+    "context": "疾病：胃溃疡，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "喘息应该挂什么科？",
+    "answer": "如果您有喘息的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：喘息，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "乏力应该挂什么科？",
+    "answer": "如果您有乏力的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：乏力，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "冠心病用什么药治疗？",
+    "answer": "治疗冠心病可以使用阿司匹林，用法：一次100mg，一日1次。抗血小板聚集，预防血栓形成",
+    "context": "疾病：冠心病，药物：阿司匹林",
+    "category": "treatment"
+  },
+  {
+    "question": "感冒用什么药治疗？",
+    "answer": "治疗感冒可以使用感冒灵，用法：一次1袋，一日3次。缓解感冒症状",
+    "context": "疾病：感冒，药物：感冒灵",
+    "category": "treatment"
+  },
+  {
+    "question": "高血压有什么症状？",
+    "answer": "高血压的常见症状包括：头痛、头晕、心悸、胸闷、视力模糊、鼻出血。",
+    "context": "疾病：高血压，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "头晕应该挂什么科？",
+    "answer": "如果您有头晕的症状，建议您可以考虑前往神经内科就诊。",
+    "context": "症状：头晕，科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "脑梗塞用什么药治疗？",
+    "answer": "治疗脑梗塞可以使用阿托伐他汀，用法：一次20mg，一日1次。调脂稳定斑块",
+    "context": "疾病：脑梗塞，药物：阿托伐他汀",
+    "category": "treatment"
+  },
+  {
+    "question": "感冒有什么症状？",
+    "answer": "感冒的常见症状包括：发热、咳嗽、流鼻涕、头痛、乏力、咽喉痛。",
+    "context": "疾病：感冒，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "胃炎有什么症状？",
+    "answer": "胃炎的常见症状包括：胃痛、恶心、呕吐、反酸、胃胀、食欲不振。",
+    "context": "疾病：胃炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "肺结核的症状是什么？",
+    "answer": "患肺结核时可能出现以下症状：咳嗽、咳痰、咯血、午后低热、盗汗、乏力、体重减轻。",
+    "context": "疾病：肺结核，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "感冒的症状是什么？",
+    "answer": "患感冒时可能出现以下症状：发热、咳嗽、流鼻涕、头痛、乏力、咽喉痛。",
+    "context": "疾病：感冒，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "感冒应该去哪个科室？",
+    "answer": "感冒患者可前往内科就诊",
+    "context": "疾病：感冒，科室：内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "异烟肼怎么用？",
+    "answer": "异烟肼的用法是：一次300mg，一日1次。抗结核杀菌",
+    "context": "药物：异烟肼",
+    "category": "drug_usage"
+  },
+  {
+    "question": "高血压应该挂什么科？",
+    "answer": "如果您有高血压的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：高血压，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "利福平怎么用？",
+    "answer": "利福平的用法是：一次450mg，一日1次。抗结核杀菌",
+    "context": "药物：利福平",
+    "category": "drug_usage"
+  },
+  {
+    "question": "脑梗塞会有吞咽困难的症状吗？",
+    "answer": "是的，脑梗塞可能会出现吞咽困难症状",
+    "context": "疾病：脑梗塞，症状：吞咽困难",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "耳痛应该挂什么科？",
+    "answer": "如果您有耳痛的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：耳痛，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "布地奈德怎么用？",
+    "answer": "布地奈德的用法是：一次2喷，一日2次。控制气道炎症",
+    "context": "药物：布地奈德",
+    "category": "drug_usage"
+  },
+  {
+    "question": "什么是脑梗塞？",
+    "answer": "脑部血液供应障碍，缺血、缺氧引起的局限性脑组织缺血性坏死或软化",
+    "context": "疾病：脑梗塞",
+    "category": "disease_description"
+  },
+  {
+    "question": "硝苯地平怎么用？",
+    "answer": "硝苯地平的用法是：一次10mg，一日3次。扩张血管，降低血压",
+    "context": "药物：硝苯地平",
+    "category": "drug_usage"
+  },
+  {
+    "question": "眼痒应该挂什么科？",
+    "answer": "如果您有眼痒的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：眼痒，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃黏膜保护剂怎么用？",
+    "answer": "胃黏膜保护剂的用法是：一次1片，一日3次。保护胃黏膜",
+    "context": "药物：胃黏膜保护剂",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃溃疡是什么病？",
+    "answer": "胃黏膜被胃酸和胃蛋白酶消化而形成的慢性溃疡",
+    "context": "疾病：胃溃疡",
+    "category": "disease_description"
+  },
+  {
+    "question": "铝碳酸镁怎么用？",
+    "answer": "铝碳酸镁的用法是：一次1.0g，一日3次。中和胃酸，保护胃黏膜",
+    "context": "药物：铝碳酸镁",
+    "category": "drug_usage"
+  },
+  {
+    "question": "冠心病的症状是什么？",
+    "answer": "患冠心病时可能出现以下症状：胸痛、胸闷、心悸、气短、乏力、出汗。",
+    "context": "疾病：冠心病，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "腹痛应该挂什么科？",
+    "answer": "如果您有腹痛的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：腹痛，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "什么是肺炎？",
+    "answer": "肺部炎症，通常由感染引起",
+    "context": "疾病：肺炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "冠心病有什么症状？",
+    "answer": "冠心病的常见症状包括：胸痛、胸闷、心悸、气短、乏力、出汗。",
+    "context": "疾病：冠心病，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "胃溃疡应该去哪个科室？",
+    "answer": "胃溃疡患者可前往消化内科就诊",
+    "context": "疾病：胃溃疡，科室：消化内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "哮喘用什么药治疗？",
+    "answer": "治疗哮喘可以使用布地奈德，用法：一次2喷，一日2次。控制气道炎症",
+    "context": "疾病：哮喘，药物：布地奈德",
+    "category": "treatment"
+  },
+  {
+    "question": "腹泻应该挂什么科？",
+    "answer": "如果您有腹泻的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：腹泻，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃炎应该去哪个科室？",
+    "answer": "胃炎患者可前往消化内科就诊",
+    "context": "疾病：胃炎，科室：消化内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "便秘应该挂什么科？",
+    "answer": "如果您有便秘的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：便秘，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "高血压用什么药治疗？",
+    "answer": "治疗高血压可以使用硝苯地平，用法：一次10mg，一日3次。扩张血管，降低血压",
+    "context": "疾病：高血压，药物：硝苯地平",
+    "category": "treatment"
+  },
+  {
+    "question": "奥美拉唑怎么用？",
+    "answer": "奥美拉唑的用法是：一次20mg，一日1次。减少胃酸分泌",
+    "context": "药物：奥美拉唑",
+    "category": "drug_usage"
+  },
+  {
+    "question": "阿司匹林怎么用？",
+    "answer": "阿司匹林的用法是：一次100mg，一日1次。抗血小板聚集",
+    "context": "药物：阿司匹林",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃溃疡会有反酸的症状吗？",
+    "answer": "是的，胃溃疡可能会出现反酸症状",
+    "context": "疾病：胃溃疡，症状：反酸",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "冠心病是什么病？",
+    "answer": "冠状动脉粥样硬化使血管腔狭窄或阻塞，导致心肌缺血缺氧而引起的心脏病",
+    "context": "疾病：冠心病",
+    "category": "disease_description"
+  },
+  {
+    "question": "冠心病可以用硝酸甘油治疗吗？",
+    "answer": "是的，冠心病可使用硝酸甘油治疗",
+    "context": "疾病：冠心病，药物：硝酸甘油",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "什么症状应该去内分泌科？",
+    "answer": "如果您有以下症状：多饮、多食、多尿、体重异常、血糖异常、甲状腺肿大，建议您前往内分泌科就诊。",
+    "context": "科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胰岛素怎么用？",
+    "answer": "胰岛素的用法是：皮下注射，剂量遵医嘱。补充胰岛素，降低血糖",
+    "context": "药物：胰岛素",
+    "category": "drug_usage"
+  },
+  {
+    "question": "哮喘是什么病？",
+    "answer": "气道慢性炎症性疾病",
+    "context": "疾病：哮喘",
+    "category": "disease_description"
+  },
+  {
+    "question": "胃溃疡有什么症状？",
+    "answer": "胃溃疡的常见症状包括：上腹痛、反酸、嗳气、恶心、呕吐、黑便。",
+    "context": "疾病：胃溃疡，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "什么症状应该去眼科？",
+    "answer": "如果您有以下症状：视力下降、眼痛、眼红、眼痒、流泪、视物模糊，建议您前往眼科就诊。",
+    "context": "科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺结核是什么病？",
+    "answer": "由结核分枝杆菌引起的慢性呼吸道传染病",
+    "context": "疾病：肺结核",
+    "category": "disease_description"
+  },
+  {
+    "question": "听力下降应该挂什么科？",
+    "answer": "如果您有听力下降的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：听力下降，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "板蓝根怎么用？",
+    "answer": "板蓝根的用法是：一次1袋，一日3次。清热解毒，凉血利咽",
+    "context": "药物：板蓝根",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃炎会有恶心的症状吗？",
+    "answer": "是的，胃炎可能会出现恶心症状",
+    "context": "疾病：胃炎，症状：恶心",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "咳痰应该挂什么科？",
+    "answer": "如果您有咳痰的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：咳痰，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "冠心病会有心悸的症状吗？",
+    "answer": "是的，冠心病可能会出现心悸症状",
+    "context": "疾病：冠心病，症状：心悸",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "什么症状应该去消化内科？",
+    "answer": "如果您有以下症状：胃痛、恶心、呕吐、反酸、胃胀、食欲不振、腹泻、便秘，建议您前往消化内科就诊。",
+    "context": "科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "眼红应该挂什么科？",
+    "answer": "如果您有眼红的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：眼红，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺结核用什么药治疗？",
+    "answer": "治疗肺结核可以使用利福平，用法：一次450mg，一日1次。抗结核杀菌",
+    "context": "疾病：肺结核，药物：利福平",
+    "category": "treatment"
+  },
+  {
+    "question": "高血压用什么药治疗？",
+    "answer": "治疗高血压可以使用卡托普利，用法：一次25mg，一日3次。抑制血管紧张素转换酶",
+    "context": "疾病：高血压，药物：卡托普利",
+    "category": "treatment"
+  },
+  {
+    "question": "什么症状应该去心血管内科？",
+    "answer": "如果您有以下症状：胸痛、心悸、胸闷、头晕、高血压、呼吸困难，建议您前往心血管内科就诊。",
+    "context": "科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃溃疡可以用铝碳酸镁治疗吗？",
+    "answer": "是的，胃溃疡可使用铝碳酸镁治疗",
+    "context": "疾病：胃溃疡，药物：铝碳酸镁",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "脑梗塞会有言语障碍的症状吗？",
+    "answer": "是的，脑梗塞可能会出现言语障碍症状",
+    "context": "疾病：脑梗塞，症状：言语障碍",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "什么是糖尿病？",
+    "answer": "以高血糖为特征的代谢性疾病",
+    "context": "疾病：糖尿病",
+    "category": "disease_description"
+  },
+  {
+    "question": "沙丁胺醇气雾剂怎么用？",
+    "answer": "沙丁胺醇气雾剂的用法是：一次2喷，必要时使用。缓解哮喘急性发作",
+    "context": "药物：沙丁胺醇气雾剂",
+    "category": "drug_usage"
+  },
+  {
+    "question": "肺结核有什么症状？",
+    "answer": "肺结核的常见症状包括：咳嗽、咳痰、咯血、午后低热、盗汗、乏力、体重减轻。",
+    "context": "疾病：肺结核，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "眼痛应该挂什么科？",
+    "answer": "如果您有眼痛的症状，建议您可以考虑前往眼科就诊。",
+    "context": "症状：眼痛，科室：眼科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃炎用什么药治疗？",
+    "answer": "治疗胃炎可以使用奥美拉唑，用法：一次20mg，一日1次。减少胃酸分泌",
+    "context": "疾病：胃炎，药物：奥美拉唑",
+    "category": "treatment"
+  },
+  {
+    "question": "肺炎有什么症状？",
+    "answer": "肺炎的常见症状包括：发热、咳嗽、咳痰、胸痛、呼吸困难、乏力。",
+    "context": "疾病：肺炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "脑梗塞是什么病？",
+    "answer": "脑部血液供应障碍，缺血、缺氧引起的局限性脑组织缺血性坏死或软化",
+    "context": "疾病：脑梗塞",
+    "category": "disease_description"
+  },
+  {
+    "question": "肺结核会有盗汗的症状吗？",
+    "answer": "是的，肺结核可能会出现盗汗症状",
+    "context": "疾病：肺结核，症状：盗汗",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "感冒会有咳嗽的症状吗？",
+    "answer": "是的，感冒可能会出现咳嗽症状",
+    "context": "疾病：感冒，症状：咳嗽",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "肺炎是什么病？",
+    "answer": "肺部炎症，通常由感染引起",
+    "context": "疾病：肺炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "阿司匹林怎么用？",
+    "answer": "阿司匹林的用法是：一次100mg，一日1次。抗血小板聚集，预防血栓形成",
+    "context": "药物：阿司匹林",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胃溃疡会有黑便的症状吗？",
+    "answer": "是的，胃溃疡可能会出现黑便症状",
+    "context": "疾病：胃溃疡，症状：黑便",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "感冒是什么病？",
+    "answer": "由病毒引起的上呼吸道感染",
+    "context": "疾病：感冒",
+    "category": "disease_description"
+  },
+  {
+    "question": "呼吸困难应该挂什么科？",
+    "answer": "如果您有呼吸困难的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：呼吸困难，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "脑梗塞可以用阿司匹林治疗吗？",
+    "answer": "是的，脑梗塞可使用阿司匹林治疗",
+    "context": "疾病：脑梗塞，药物：阿司匹林",
+    "category": "treatment_relation"
+  }
+]

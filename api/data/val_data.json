@@ -1,0 +1,224 @@
+[
+  {
+    "question": "感冒可以用板蓝根治疗吗？",
+    "answer": "是的，感冒可使用板蓝根治疗",
+    "context": "疾病：感冒，药物：板蓝根",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "哮喘有什么症状？",
+    "answer": "哮喘的常见症状包括：喘息、气急、胸闷、咳嗽、呼吸困难。",
+    "context": "疾病：哮喘，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "肺结核应该去哪个科室？",
+    "answer": "肺结核患者可前往呼吸内科就诊",
+    "context": "疾病：肺结核，科室：呼吸内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "奥美拉唑怎么用？",
+    "answer": "奥美拉唑的用法是：一次20mg，一日1次。抑制胃酸分泌",
+    "context": "药物：奥美拉唑",
+    "category": "drug_usage"
+  },
+  {
+    "question": "二甲双胍怎么用？",
+    "answer": "二甲双胍的用法是：一次0.5g，一日3次。降低血糖",
+    "context": "药物：二甲双胍",
+    "category": "drug_usage"
+  },
+  {
+    "question": "头孢克肟怎么用？",
+    "answer": "头孢克肟的用法是：一次100mg，一日2次。抗菌消炎",
+    "context": "药物：头孢克肟",
+    "category": "drug_usage"
+  },
+  {
+    "question": "胸闷应该挂什么科？",
+    "answer": "如果您有胸闷的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：胸闷，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "咳嗽应该挂什么科？",
+    "answer": "如果您有咳嗽的症状，建议您可以考虑前往呼吸内科就诊。",
+    "context": "症状：咳嗽，科室：呼吸内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "硝酸甘油怎么用？",
+    "answer": "硝酸甘油的用法是：一次0.5mg，舌下含服。缓解心绞痛",
+    "context": "药物：硝酸甘油",
+    "category": "drug_usage"
+  },
+  {
+    "question": "脑梗塞的症状是什么？",
+    "answer": "患脑梗塞时可能出现以下症状：偏瘫、偏身感觉障碍、言语障碍、吞咽困难、眩晕、头痛。",
+    "context": "疾病：脑梗塞，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "发热应该挂什么科？",
+    "answer": "如果您有发热的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：发热，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胸痛应该挂什么科？",
+    "answer": "如果您有胸痛的症状，建议您可以考虑前往内科就诊。",
+    "context": "症状：胸痛，科室：内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "胃溃疡会有胃痛的症状吗？",
+    "answer": "是的，胃溃疡可能会出现胃痛症状",
+    "context": "疾病：胃溃疡，症状：胃痛",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "什么症状应该去神经内科？",
+    "answer": "如果您有以下症状：头痛、头晕、肢体麻木、无力、言语障碍、吞咽困难，建议您前往神经内科就诊。",
+    "context": "科室：神经内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "多饮应该挂什么科？",
+    "answer": "如果您有多饮的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：多饮，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "甲状腺肿大应该挂什么科？",
+    "answer": "如果您有甲状腺肿大的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：甲状腺肿大，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "过敏性鼻炎是什么病？",
+    "answer": "鼻黏膜非感染性炎性疾病",
+    "context": "疾病：过敏性鼻炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "胃炎是什么病？",
+    "answer": "胃黏膜炎症",
+    "context": "疾病：胃炎",
+    "category": "disease_description"
+  },
+  {
+    "question": "呕吐应该挂什么科？",
+    "answer": "如果您有呕吐的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：呕吐，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "什么是感冒？",
+    "answer": "由病毒引起的上呼吸道感染",
+    "context": "疾病：感冒",
+    "category": "disease_description"
+  },
+  {
+    "question": "肺炎用什么药治疗？",
+    "answer": "治疗肺炎可以使用头孢克肟，用法：一次100mg，一日2次。抗菌消炎",
+    "context": "疾病：肺炎，药物：头孢克肟",
+    "category": "treatment"
+  },
+  {
+    "question": "胃炎的症状是什么？",
+    "answer": "患胃炎时可能出现以下症状：胃痛、恶心、呕吐、反酸、胃胀、食欲不振。",
+    "context": "疾病：胃炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "什么是肺结核？",
+    "answer": "由结核分枝杆菌引起的慢性呼吸道传染病",
+    "context": "疾病：肺结核",
+    "category": "disease_description"
+  },
+  {
+    "question": "感冒会有发热的症状吗？",
+    "answer": "是的，感冒可能会出现发热症状",
+    "context": "疾病：感冒，症状：发热",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "糖尿病用什么药治疗？",
+    "answer": "治疗糖尿病可以使用二甲双胍，用法：一次0.5g，一日3次。降低血糖",
+    "context": "疾病：糖尿病，药物：二甲双胍",
+    "category": "treatment"
+  },
+  {
+    "question": "流涕应该挂什么科？",
+    "answer": "如果您有流涕的症状，建议您可以考虑前往耳鼻喉科就诊。",
+    "context": "症状：流涕，科室：耳鼻喉科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "什么是高血压？",
+    "answer": "动脉血压持续升高的慢性疾病",
+    "context": "疾病：高血压",
+    "category": "disease_description"
+  },
+  {
+    "question": "冠心病应该去哪个科室？",
+    "answer": "冠心病患者可前往心血管内科就诊",
+    "context": "疾病：冠心病，科室：心血管内科",
+    "category": "department_relation"
+  },
+  {
+    "question": "多尿应该挂什么科？",
+    "answer": "如果您有多尿的症状，建议您可以考虑前往内分泌科就诊。",
+    "context": "症状：多尿，科室：内分泌科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺结核会有咳嗽的症状吗？",
+    "answer": "是的，肺结核可能会出现咳嗽症状",
+    "context": "疾病：肺结核，症状：咳嗽",
+    "category": "symptom_relation"
+  },
+  {
+    "question": "食欲不振应该挂什么科？",
+    "answer": "如果您有食欲不振的症状，建议您可以考虑前往消化内科就诊。",
+    "context": "症状：食欲不振，科室：消化内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "肺炎的症状是什么？",
+    "answer": "患肺炎时可能出现以下症状：发热、咳嗽、咳痰、胸痛、呼吸困难、乏力。",
+    "context": "疾病：肺炎，症状查询",
+    "category": "symptoms"
+  },
+  {
+    "question": "胃炎可以用奥美拉唑治疗吗？",
+    "answer": "是的，胃炎可使用奥美拉唑治疗",
+    "context": "疾病：胃炎，药物：奥美拉唑",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "冠心病用什么药治疗？",
+    "answer": "治疗冠心病可以使用硝酸甘油，用法：一次0.5mg，舌下含服。缓解心绞痛",
+    "context": "疾病：冠心病，药物：硝酸甘油",
+    "category": "treatment"
+  },
+  {
+    "question": "肺结核可以用异烟肼治疗吗？",
+    "answer": "是的，肺结核可使用异烟肼治疗",
+    "context": "疾病：肺结核，药物：异烟肼",
+    "category": "treatment_relation"
+  },
+  {
+    "question": "头晕应该挂什么科？",
+    "answer": "如果您有头晕的症状，建议您可以考虑前往心血管内科就诊。",
+    "context": "症状：头晕，科室：心血管内科",
+    "category": "department_recommendation"
+  },
+  {
+    "question": "脑梗塞用什么药治疗？",
+    "answer": "治疗脑梗塞可以使用阿司匹林，用法：一次100mg，一日1次。抗血小板聚集",
+    "context": "疾病：脑梗塞，药物：阿司匹林",
+    "category": "treatment"
+  }
+]

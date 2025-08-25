@@ -1,8 +1,47 @@
+# Web Framework
 Flask==2.3.3
 Flask-CORS==4.0.0
-torch==2.1.0
-transformers==4.35.0
+
+# Deep Learning Framework
+torch==2.0.1
+transformers==4.33.0
+accelerate==0.21.0
+
+# Database
 neo4j==5.14.1
+
+# NLP Tools
 sentencepiece==0.1.99
 protobuf==3.20.3
-accelerate==0.24.1
+jieba==0.42.1
+
+# Machine Learning Evaluation
+scikit-learn==1.3.0
+numpy==1.24.3
+
+# Text Evaluation Metrics (Optional)
+# rouge-score==0.1.2
+# sacrebleu==2.3.1
+
+# Data Processing
+pandas==2.0.3
+
+# System Tools
+psutil==5.9.5
+requests==2.31.0
+
+# Development and Testing Tools
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Configuration Management
+pyyaml==6.0.1
+
+# Logging and Monitoring
+loguru==0.7.2
+
+# Async Support
+aiofiles==23.2.1
+
+# Type Checking
+typing-extensions==4.7.1

@@ -1,0 +1,18 @@
+[
+  {
+    "question": "感冒症状是什么？",
+    "predicted_answer": "感冒有发热症状",
+    "correct_answer": "感冒的症状包括发热、咳嗽、流鼻涕、头痛、乏力等",
+    "score": 0.5,
+    "feedback": "答案不够完整",
+    "timestamp": "2025-08-25T00:18:54.688130"
+  },
+  {
+    "question": "高血压用药？",
+    "predicted_answer": "降压药",
+    "correct_answer": "硝苯地平，一次10mg，一日3次",
+    "score": 0.3,
+    "feedback": "需要具体药名和用法",
+    "timestamp": "2025-08-25T00:18:54.691324"
+  }
+]
